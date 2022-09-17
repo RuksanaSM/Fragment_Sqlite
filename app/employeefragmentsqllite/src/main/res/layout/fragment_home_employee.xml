@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+android:background="@drawable/backgrnd"
+    tools:context=".ui.employee.HomeEmployeeFragment">
+
+
+
+
+    <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="450dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:background="#D4E8EA"
+            android:layout_gravity="center_horizontal"
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employee Information"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"
+                android:background="#65CF2C"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/empsnoid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp"
+                android:padding="10dp"
+                android:hint="Serial No"/>
+            <EditText
+                android:id="@+id/empnameid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp"
+                android:padding="10dp"
+                android:hint="Employee Name"/>
+
+
+            <EditText
+                android:id="@+id/empdesgid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp"
+                android:padding="10dp"
+                android:hint="Designation"/>
+
+            <EditText
+                android:id="@+id/empaddrsid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp"
+                android:padding="10dp"
+                android:hint="Address"/>
+
+            <Button
+                android:id="@+id/insert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:text="Add to Database"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
